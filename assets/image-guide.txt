@@ -1,0 +1,104 @@
+JAIPUR MEHANDI SPECIAL — IMAGE GUIDE
+=====================================
+This is the ONLY image folder used anywhere on the website ("assets").
+Every photo the site uses lives here, and the HTML links to each photo
+by the exact file name listed below. If you ever want to swap a photo,
+save the new picture with the SAME file name (same spelling, same
+".jpg") and drop it into this folder, replacing the old one. Do not
+rename the file, and do not add spaces to file names.
+
+WHERE EACH IMAGE IS USED
+-------------------------
+
+1) HERO BANNER (large photo at the very top of the homepage)
+   bridal-full-arm-07.jpg
+
+2) ABOUT SECTION (photo next to the "About the Studio" text)
+   bridal-hand-palm-07.jpg
+
+3) SOCIAL PREVIEW IMAGE (thumbnail shown when the site link is shared
+   on WhatsApp/Instagram/Facebook) — same file as the hero banner:
+   bridal-full-arm-07.jpg
+
+4) PORTFOLIO / GALLERY SECTION
+   The gallery has 3 filter tabs. Each image below appears under its
+   matching tab, and also under "All Work".
+
+   Tab: BRIDAL FULL-ARM (20 photos)
+   ---------------------------------
+   bridal-full-arm-01.jpg
+   bridal-full-arm-02.jpg
+   bridal-full-arm-03.jpg
+   bridal-full-arm-04.jpg
+   bridal-full-arm-05.jpg
+   bridal-full-arm-06.jpg
+   bridal-full-arm-07.jpg   (also used as hero banner above)
+   bridal-full-arm-08.jpg
+   bridal-full-arm-09.jpg
+   bridal-full-arm-10.jpg
+   bridal-full-arm-11.jpg
+   bridal-full-arm-12.jpg
+   bridal-full-arm-13.jpg
+   bridal-full-arm-14.jpg
+   bridal-full-arm-15.jpg
+   bridal-full-arm-16.jpg
+   bridal-full-arm-17.jpg
+   bridal-full-arm-18.jpg
+   bridal-full-arm-19.jpg
+   bridal-full-arm-20.jpg
+
+   Tab: BRIDAL HAND & PALM (9 photos)
+   ------------------------------------
+   bridal-hand-palm-01.jpg
+   bridal-hand-palm-02.jpg
+   bridal-hand-palm-03.jpg
+   bridal-hand-palm-04.jpg
+   bridal-hand-palm-05.jpg
+   bridal-hand-palm-06.jpg
+   bridal-hand-palm-07.jpg   (also used in About section above)
+   bridal-hand-palm-08.jpg
+   bridal-hand-palm-09.jpg
+
+   Tab: MINI & PERSONALISED (5 photos)
+   --------------------------------------
+   mini-personalized-01.jpg
+   mini-personalized-02.jpg
+   mini-personalized-03.jpg
+   mini-personalized-04.jpg
+   mini-personalized-05.jpg
+
+HOW TO ADD MORE PHOTOS LATER
+------------------------------
+To ADD a brand-new photo instead of replacing one:
+  1. Pick the correct category: bridal-full-arm / bridal-hand-palm /
+     mini-personalized.
+  2. Name the file using the next number in that category, e.g. if
+     "bridal-full-arm-20.jpg" is currently the last one, your new
+     photo should be named "bridal-full-arm-21.jpg".
+  3. Save it into this "assets" folder.
+  4. Open "script.js" in the website folder, find the three "for"
+     loops near the top (search for "bridal-full-arm-", "bridal-hand-
+     palm-" or "mini-personalized-") and change the number in
+     "i <= 20", "j <= 9" or "k <= 5" to match your new total count.
+     (If you're not comfortable editing code, just send the new
+     photos to your web developer with this file and they can do it
+     in under a minute.)
+
+A NOTE ON IMAGE SOURCE
+------------------------
+One photo from the original set you shared ("jaipur mehndi 30.jpeg")
+had another mehandi page's username faintly watermarked into the
+fabric background, so it has been left out of this website to avoid
+using someone else's watermarked work. Everything else from your zip
+file has been used. If that specific design was actually done by your
+own studio, just add its photo back in following the "How to add more
+photos" steps above.
+
+FILE FORMAT TIPS
+------------------
+- Use .jpg photos, ideally under 500 KB each, so the site stays fast
+  to load on mobile data.
+- Portrait (tall) photos work best for the gallery — that's the shape
+  most bridal mehandi photos naturally have.
+- Keep the exact lowercase file names shown above — website links are
+  case-sensitive.
